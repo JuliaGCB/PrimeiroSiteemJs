@@ -6,7 +6,7 @@ body{
 ul{
     padding: 0px !important;
 }
-main{
+main, .content{
     width: 980px;
     position: relative;
     margin: 0 auto;
@@ -88,11 +88,10 @@ main{
     height: 36px;
     width: 190px ;
 }
-.col-100{
+.col-100{ /*Formatação de tamanho dos blocos -  para ficar alinhado*/
     width: 100%;
     float: left;
     position: relative;
-    margin: 0;
 }
 
 button.slick-prev{
@@ -125,7 +124,7 @@ button.slick-next{
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 50%;
+    left: 48%;
     top: 92%;
 }
 
@@ -149,4 +148,74 @@ li.slick-active button{
     overflow: hidden;
 }
 
+
+/*---------Parte do conteudo------------*/
+.texto-destaque{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.texto-destaque h1{
+    font-size: 30px;
+    margin-top: 25px;
+    color: #818181;
     
+    text-transform: uppercase;
+}
+.texto-destaque strong{
+    color: #646464;
+}
+.texto-destaque p{
+    font-size: 16px;
+    color: #9a9a9a;
+}    
+.col-3{
+    text-align: center;
+    width: 29%; 
+    position: relative;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+h3{
+    font-weight: normal !important;
+}
+
+.bloco-texto{
+    margin-top: 3em;
+}
+.col-3 h3{
+    color: #818181;
+}
+
+.bloco-imagens-texto{
+    background-color: #eeeeee;
+    padding-bottom: 3em;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background-color:#fff;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
