@@ -105,6 +105,7 @@ button.slick-prev{
     background-image: url(../img/anterior.png);
     top: 35%;
     left: 23%;
+    cursor: pointer;
 }
 
 button.slick-next{
@@ -118,6 +119,7 @@ button.slick-next{
     background-image: url(../img/proximo.png);
     top: 35%;
     right: 20%;
+    cursor: pointer;
 }
 
 .slick-dots{
@@ -167,6 +169,7 @@ li.slick-active button{
 .texto-destaque p{
     font-size: 16px;
     color: #9a9a9a;
+    text-align: center;
 }    
 .col-3{
     text-align: center;
@@ -218,4 +221,34 @@ h3{
     background-image: url('../img/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+/*-----------Patrocionios-----------*/
+.col-4 {
+    width: 25%;
+    float: left;
+    line-height: 7em;
+    text-align: center;
+    margin-top: 35px;
+}
+.col-4 img{
+    cursor: pointer;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.col-4 img:hover{
+    margin-top: 10px !important;
+    position:  relative !important;
+}
+.bloco-logos{
+    height: 170px;
+}
+
+/*-----------Footer-----------*/
+.footer{
+    background-image: url("../img/footer.png");
+    color: #fff;
+}
+.footer h3{
+    text-align: left;
+    font-weight:bold;
 }
